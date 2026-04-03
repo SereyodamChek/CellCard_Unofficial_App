@@ -1,12 +1,13 @@
-
 # 📱 CellCard Unofficial App – Flutter Mobile Application
 
-<div align="center">
-
-![Home](home.png) ![Account](account.png) ![Store](store.png)  
-![Usage](usage.png) ![Setting](setting.png) ![About](about.png)
-
-</div>
+<p align="center">
+  <img src="home.png" width="120" alt="Home Screen" />
+  <img src="account.png" width="120" alt="Account Screen" />
+  <img src="store.png" width="120" alt="Store Screen" />
+  <img src="usage.png" width="120" alt="Usage Screen" />
+  <img src="setting.png" width="120" alt="Settings Screen" />
+  <img src="about.png" width="120" alt="About Screen" />
+</p>
 
 ### 👨‍💻 Built by SereyodamChek
 
@@ -55,13 +56,12 @@ Built with modern Flutter practices, this project demonstrates cross-platform de
 │   ├── features/            → Feature modules (home, account, store, settings, about)
 │   └── shared/              → Reusable widgets, buttons, dialogs, inputs
 │
-├── assets/                  → Images, icons, fonts
-│   ├── about.png
-│   ├── account.png
-│   ├── home.png
-│   ├── setting.png
-│   ├── store.png
-│   └── usage.png
+├── home.png                 → Home screen preview
+├── account.png              → Account screen preview
+├── store.png                → Store screen preview
+├── usage.png                → Usage screen preview
+├── setting.png              → Settings screen preview
+├── about.png                → About screen preview
 │
 ├── /android /ios /web /windows /macos /linux → Platform-specific configs
 ├── /test                    → Unit & widget tests
@@ -155,3 +155,5 @@ flutter run -d linux       # Linux Desktop
 ---
 
 ⭐ *Building useful mobile experiences through clean Flutter code — one widget at a time.* 📱💙
+```
+
