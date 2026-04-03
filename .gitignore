@@ -1,0 +1,26 @@
+# Flutter/Dart
+.dart_tool/
+build/
+*.apk
+*.aab
+*.ipa
+*.so
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Environment
+.env
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies (keep pubspec.yaml, not the lockfile if you prefer)
+# But usually keep: pubspec.lock
