@@ -147,7 +147,7 @@ flutter run -d linux       # Linux Desktop
 **SereyodamChek (Dom)**  
 * GitHub: [https://github.com/SereyodamChek](https://github.com/SereyodamChek)  
 * Email: [sereyodamc011@gmail.com](mailto:sereyodamc011@gmail.com)  
-* 🌐 Portfolio: [Your Portfolio Link] *(optional)*
+* 🌐 Portfolio: [www.cheksereyodam.site] 
 
 🐛 [Report an Issue](https://github.com/SereyodamChek/CellCard_Unofficial_App/issues)  
 💡 [Request a Feature](https://github.com/SereyodamChek/CellCard_Unofficial_App/issues)
