@@ -155,5 +155,3 @@ flutter run -d linux       # Linux Desktop
 ---
 
 ⭐ *Building useful mobile experiences through clean Flutter code — one widget at a time.* 📱💙
-```
-
