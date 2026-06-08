@@ -1,21 +1,27 @@
-<p align="center">
-  <img src="https://www.cysend.com/images/products/cellcard.svg" width="300" alt="CellCard Logo" />
-</p>
 
-# 📱 CellCard Unofficial App – Flutter Mobile Application
+<div align="center">
+  <img src="https://www.cysend.com/images/products/cellcard.svg" width="200" alt="CellCard Logo" />
+  
+  <h1>📱 CellCard Unofficial App</h1>
+  <p><strong>Flutter Mobile Application</strong> — Cross-platform Telecom Experience</p>
 
-<p align="center">
-  <img src="home.png" width="120" alt="Home Screen" />
-  <img src="account.png" width="120" alt="Account Screen" />
-  <img src="store.png" width="120" alt="Store Screen" />
-  <img src="usage.png" width="120" alt="Usage Screen" />
-  <img src="setting.png" width="120" alt="Settings Screen" />
-  <img src="about.png" width="120" alt="About Screen" />
-</p>
+  <p align="center">
+    <img src="home.png" width="100" alt="Home Screen" />
+    <img src="account.png" width="100" alt="Account Screen" />
+    <img src="store.png" width="100" alt="Store Screen" />
+    <img src="usage.png" width="100" alt="Usage Screen" />
+    <img src="setting.png" width="100" alt="Settings Screen" />
+    <img src="about.png" width="100" alt="About Screen" />
+  </p>
 
-### 👨‍💻 Built by SereyodamChek
+  <p>
+    <b>Built with 💙 by</b> <a href="https://github.com/SereyodamChek">SereyodamChek</a>
+  </p>
 
-> ⚠️ **Disclaimer**: This is an **unofficial, community-built application** and is not affiliated with, endorsed by, or officially connected to CellCard. For official services, please visit [cellcard.com](https://www.cellcard.com.kh).
+  <blockquote>
+    ⚠️ <strong>Disclaimer</strong>: This is an <strong>unofficial, community-built application</strong> and is not affiliated with, endorsed by, or officially connected to CellCard. For official services, please visit <a href="https://www.cellcard.com.kh">cellcard.com</a>.
+  </blockquote>
+</div>
 
 ---
 
@@ -29,48 +35,52 @@ Built with modern Flutter practices, this project demonstrates cross-platform de
 
 ## 🚀 Key Features
 
-* 📊 **Balance & Usage Tracker** – View data, call & SMS usage in real-time
-* 🛒 **Package Store** – Browse & purchase data/call packages easily
-* 👤 **Account Management** – Profile info, transaction history & settings
-* ⚙️ **Quick Settings** – Toggle notifications, language & theme preferences
-* 📱 **Fully Cross-Platform** – Android, iOS, Web, Windows, macOS, Linux
-* 🎨 **Modern UI** – Clean design with smooth animations & adaptive layouts
+| Category | Features |
+|----------|----------|
+| 📊 **Usage Tracker** | View data, call & SMS usage in real-time |
+| 🛒 **Package Store** | Browse & purchase data/call packages easily |
+| 👤 **Account Hub** | Profile info, transaction history & settings |
+| ⚙️ **Quick Settings** | Toggle notifications, language & theme |
+| 📱 **Cross-Platform** | Android, iOS, Web, Windows, macOS, Linux |
+| 🎨 **Modern UI** | Material Design 3 with smooth animations |
 
 ---
 
 ## 🛠️ Tech Stack
 
-* 💙 **Flutter (Dart)** – Cross-platform UI framework
-* 🎯 **Material Design 3** – Modern, adaptive UI components
-* 🧭 **Navigation** – `[GoRouter / AutoRoute / Navigator 2.0]`
-* 📊 **State Management** – `[Riverpod / Provider / BLoC / GetX]`
-* 🗃️ **Local Storage** – `[Shared Preferences / Hive / SQLite]`
-* 🌐 **Networking** – `[Dio / http]` for API communication *(if implemented)*
+<div align="center">
+  
+| Layer | Technology |
+|-------|------------|
+| **Framework** | Flutter (Dart) |
+| **UI Design** | Material Design 3 |
+| **Navigation** | GoRouter / AutoRoute |
+| **State Management** | Riverpod / Provider / BLoC |
+| **Local Storage** | Shared Preferences / Hive / SQLite |
+| **Networking** | Dio / HTTP |
+
+</div>
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Architecture
 
 ```
-/CellCard_Unofficial_App
-│
-├── lib/                     → Main application logic
-│   ├── main.dart            → App entry point & initialization
-│   ├── core/                → Constants, themes, routing, utilities
-│   ├── features/            → Feature modules (home, account, store, settings, about)
-│   └── shared/              → Reusable widgets, buttons, dialogs, inputs
-│
-├── home.png                 → Home screen preview
-├── account.png              → Account screen preview
-├── store.png                → Store screen preview
-├── usage.png                → Usage screen preview
-├── setting.png              → Settings screen preview
-├── about.png                → About screen preview
-│
-├── /android /ios /web /windows /macos /linux → Platform-specific configs
-├── /test                    → Unit & widget tests
-├── pubspec.yaml             → Dependencies & project metadata
-└── README.md                → Documentation
+📦 CellCard_Unofficial_App
+├── 📁 lib/
+│   ├── 🚀 main.dart              → App entry point
+│   ├── 📁 core/                  → Constants, themes, routing, utilities
+│   ├── 📁 features/              → Feature modules (home, account, store, settings, about)
+│   └── 📁 shared/                → Reusable widgets & components
+├── 📁 android/                   → Android-specific configs
+├── 📁 ios/                       → iOS-specific configs
+├── 📁 web/                       → Web-specific configs
+├── 📁 windows/                   → Windows Desktop configs
+├── 📁 macos/                     → macOS Desktop configs
+├── 📁 linux/                     → Linux Desktop configs
+├── 📁 test/                      → Unit & widget tests
+├── 📄 pubspec.yaml               → Dependencies & metadata
+└── 📄 README.md                  → Documentation
 ```
 
 ---
@@ -78,87 +88,89 @@ Built with modern Flutter practices, this project demonstrates cross-platform de
 ## ⚙️ Getting Started
 
 ### 1. Install Flutter
+👉 [Flutter Installation Guide](https://docs.flutter.dev/get-started/install)
 
-👉 [https://docs.flutter.dev/get-started/install](https://docs.flutter.dev/get-started/install)
-
-### 2. Clone the repository
-
+### 2. Clone Repository
 ```bash
 git clone https://github.com/SereyodamChek/CellCard_Unofficial_App.git
 cd CellCard_Unofficial_App
 ```
 
-### 3. Install dependencies
-
+### 3. Install Dependencies
 ```bash
 flutter pub get
 ```
 
-### 4. Run the app
-
+### 4. Run the App
 ```bash
 flutter run
 ```
 
 ---
 
-## ▶️ Run on Specific Platforms
+## ▶️ Platform-Specific Commands
 
 ```bash
-flutter run -d chrome      # Web
-flutter run -d android     # Android
-flutter run -d ios         # iOS (macOS required)
-flutter run -d windows     # Windows Desktop
-flutter run -d macos       # macOS Desktop
-flutter run -d linux       # Linux Desktop
+flutter run -d chrome      # 🌐 Web
+flutter run -d android     # 📱 Android
+flutter run -d ios         # 🍎 iOS (macOS required)
+flutter run -d windows     # 🪟 Windows Desktop
+flutter run -d macos       # 🖥️ macOS Desktop
+flutter run -d linux       # 🐧 Linux Desktop
 ```
 
 ---
 
-## 🎯 Purpose
+## 🎯 Project Purpose
 
-* Practice **Flutter mobile development** with real-world UI patterns
-* Learn **telecom app features**: balance checks, package purchases, usage tracking
-* Build a **production-ready mockup** for portfolio showcase
-* Explore **cross-platform development** with a single codebase
-* Prepare for backend API integration & authentication flows
-
----
-
-## 📈 Future Improvements
-
-* 🔐 Mock authentication & OTP verification flow
-* 🌐 Integrate real CellCard API for live balance & transactions
-* 🔔 Push notifications for package expiry & promotions
-* 🌍 Multi-language support (Khmer / English)
-* 💳 In-app payment simulation with ABA PayWay / KHQR
-* 📊 Advanced usage analytics with charts & insights
-* 🎨 Custom theme builder & accessibility options
+| Goal | Description |
+|------|-------------|
+| ✨ **Flutter Practice** | Real-world UI patterns & animations |
+| 📱 **Telecom Features** | Balance checks, packages, usage tracking |
+| 🚀 **Production Mockup** | Portfolio-ready application |
+| 🔄 **Cross-Platform** | Single codebase for all platforms |
+| 🔌 **Backend Ready** | Prepared for API integration & auth |
 
 ---
 
-## ⚠️ Notes
+## 📈 Roadmap
 
-* This is a **frontend/UI-focused educational project**
-* All data is **mock/static** — no real CellCard account connections
-* Optimized for learning, portfolio display, and interview preparation
-* Feel free to fork, study, and adapt for your own telecom or utility app projects!
-
----
-
-## 📫 Contact
-
-**SereyodamChek (Dom)**  
-* GitHub: [https://github.com/SereyodamChek](https://github.com/SereyodamChek)  
-* Email: [sereyodamc011@gmail.com](mailto:sereyodamc011@gmail.com)  
-* 🌐 Portfolio: [www.cheksereyodam.site](http://www.cheksereyodam.site)
-
-🐛 [Report an Issue](https://github.com/SereyodamChek/CellCard_Unofficial_App/issues)  
-💡 [Request a Feature](https://github.com/SereyodamChek/CellCard_Unofficial_App/issues)
+- [ ] 🔐 Mock authentication & OTP verification
+- [ ] 🌐 Live CellCard API integration
+- [ ] 🔔 Push notifications for package expiry
+- [ ] 🌍 Khmer / English bilingual support
+- [ ] 💳 In-app payment simulation (ABA PayWay / KHQR)
+- [ ] 📊 Advanced analytics with charts
+- [ ] 🎨 Custom theme builder & accessibility
 
 ---
 
-⭐ *Building useful mobile experiences through clean Flutter code — one widget at a time.* 💙
+## ⚠️ Important Notes
+
+> **Frontend/UI-focused educational project** — All data is **mock/static**. No real CellCard account connections. Optimized for learning, portfolio display, and interview preparation. Free to fork, study, and adapt!
+
+---
+
+## 📫 Connect With Me
+
+<div align="center">
+  
+| Platform | Link |
+|----------|------|
+| **GitHub** | [@SereyodamChek](https://github.com/SereyodamChek) |
+| **Email** | [sereyodamc011@gmail.com](mailto:sereyodamc011@gmail.com) |
+| **Portfolio** | [cheksereyodam.site](http://www.cheksereyodam.site) |
+
+</div>
+
+<div align="center">
+  <a href="https://github.com/SereyodamChek/CellCard_Unofficial_App/issues">🐛 Report Issue</a> • 
+  <a href="https://github.com/SereyodamChek/CellCard_Unofficial_App/issues">💡 Request Feature</a>
+</div>
+
+---
+
+<div align="center">
+  <sub>⭐ Building useful mobile experiences through clean Flutter code — one widget at a time. 💙</sub>
+</div>
 ```
-
-I've added the CellCard logo at the very top, centered and sized at 200px width. Your existing UX/UI screenshots and all content remain exactly as you had them.
